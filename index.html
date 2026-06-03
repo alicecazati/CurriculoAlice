@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Alice Debien</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    padding:30px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    background:white;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    padding:40px;
+}
+
+.header h1{
+    font-size:38px;
+    margin-bottom:8px;
+}
+
+.header h2{
+    font-size:20px;
+    font-weight:400;
+    opacity:.9;
+}
+
+.contact{
+    margin-top:15px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    font-size:14px;
+}
+
+.content{
+    display:grid;
+    grid-template-columns: 320px 1fr;
+}
+
+.sidebar{
+    background:#f8fafc;
+    padding:30px;
+}
+
+.main{
+    padding:30px;
+}
+
+.section{
+    margin-bottom:28px;
+}
+
+.section h3{
+    color:#4f46e5;
+    margin-bottom:12px;
+    font-size:18px;
+    border-bottom:2px solid #e5e7eb;
+    padding-bottom:8px;
+}
+
+.about{
+    line-height:1.6;
+    color:#555;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.skill{
+    background:#e0e7ff;
+    color:#4338ca;
+    padding:8px 12px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.job{
+    margin-bottom:25px;
+}
+
+.job h4{
+    color:#111827;
+    margin-bottom:5px;
+}
+
+.job span{
+    color:#6b7280;
+    font-size:14px;
+}
+
+.job ul{
+    margin-top:10px;
+    padding-left:18px;
+}
+
+.job li{
+    margin-bottom:8px;
+    line-height:1.5;
+    color:#4b5563;
+}
+
+.education{
+    margin-bottom:15px;
+}
+
+.education h4{
+    color:#111827;
+}
+
+.education p{
+    color:#6b7280;
+}
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.tech span{
+    background:#f3f4f6;
+    padding:8px 12px;
+    border-radius:8px;
+}
+
+@media(max-width:800px){
+    .content{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>Alice Debien</h1>
+        <h2>Product Designer • UX/UI Designer</h2>
+
+        <div class="contact">
+            <span> alice.cazati@gmail.com</span>
+            <span> (31) 98415-9880</span>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <aside class="sidebar">
+
+            <div class="section">
+                <h3>Sobre Mim</h3>
+
+                <p class="about">
+                    Profissional em formação na área de Tecnologia com experiência
+                    em Product Management, UX/UI Design e metodologias ágeis.
+                    Possuo conhecimento em levantamento de requisitos, gestão
+                    de backlog, prototipação de alta fidelidade e validação de
+                    soluções digitais centradas no usuário.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>Competências</h3>
+
+                <div class="skills">
+                    <div class="skill">UX Design</div>
+                    <div class="skill">UI Design</div>
+                    <div class="skill">Figma</div>
+                    <div class="skill">Product Design</div>
+                    <div class="skill">Wireframes</div>
+                    <div class="skill">Prototipação</div>
+                    <div class="skill">Scrum</div>
+                    <div class="skill">Kanban</div>
+                    <div class="skill">Discovery</div>
+                    <div class="skill">Backlog</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Ferramentas</h3>
+
+                <p class="about">
+                    Figma<br>
+                    Jira<br>
+                    Trello<br>
+                    Miro<br>
+                    Canva<br>
+                    Visual Studio<br>
+                    Pacote Office
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>Idiomas</h3>
+
+                <p class="about">
+                    Inglês – Intermediário<br>
+                    Espanhol – Intermediário
+                </p>
+            </div>
+
+        </aside>
+
+        <main class="main">
+
+            <div class="section">
+                <h3>Objetivo</h3>
+
+                <p class="about">
+                    Atuar como Product Designer ou UX/UI Designer,
+                    contribuindo para a criação de produtos digitais
+                    intuitivos, acessíveis e centrados no usuário,
+                    unindo conhecimentos de design, tecnologia e negócio.
+                </p>
+            </div>
+
+            <div class="section">
+                <h3>Experiência Profissional</h3>
+
+                <div class="job">
+                    <h4>Trainee Product Owner</h4>
+                    <span>Atual</span>
+
+                    <ul>
+                        <li>Criação de protótipos de alta fidelidade utilizando Figma.</li>
+                        <li>Construção e priorização de backlog.</li>
+                        <li>Definição de histórias de usuário e critérios de aceite.</li>
+                        <li>Validação de funcionalidades com stakeholders.</li>
+                        <li>Coleta e análise de feedbacks de usuários.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Estagiária Product Owner</h4>
+
+                    <ul>
+                        <li>Organização e priorização do backlog.</li>
+                        <li>Levantamento e documentação de requisitos.</li>
+                        <li>Acompanhamento de entregas do time de desenvolvimento.</li>
+                        <li>Análise de chamados relacionados a ERP.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Estagiária – Optivision</h4>
+
+                    <ul>
+                        <li>Apresentação de equipamentos oftalmológicos para clientes.</li>
+                        <li>Realização de testes e validações dos equipamentos.</li>
+                        <li>Controle de estoque e documentação técnica.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Formação Acadêmica</h3>
+
+                <div class="education">
+                    <h4>Engenharia de Software</h4>
+                    <p>Em andamento</p>
+                </div>
+
+                <div class="education">
+                    <h4>Ciência da Computação</h4>
+                    <p>4 períodos concluídos</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3>Conhecimentos Técnicos</h3>
+
+                <div class="tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Java</span>
+                    <span>C#</span>
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>SQL</span>
+                    <span>Modelagem de Dados</span>
+                    <span>Linux</span>
+                    <span>Windows</span>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
